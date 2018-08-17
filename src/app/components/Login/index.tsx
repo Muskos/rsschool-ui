@@ -7,14 +7,6 @@ class Login extends React.Component {
     render() {
         return (
             <main>
-                <div className={cn('login-form')}>
-                    <img className={cn('login-image')} src="/assets/images/logo-rsschool2.png" alt="RS Logo" />
-                    <div className="text-right mt-5 pt-5">
-                        <a href="/api/auth/github" className="btn btn-success">
-                            Sign up with GitHub
-                        </a>
-                    </div>
-                </div>
                 <div className="container">
                     <div className={cn('row', 'partner-list')}>
                         <div className="col-4 d-flex align-items-center">
@@ -44,6 +36,14 @@ class Login extends React.Component {
                                 />
                             </a>
                         </div>
+                    </div>
+                </div>
+                <div className={cn('login-form')}>
+                    <img className={cn('login-image')} src="/assets/images/logo-rsschool2.png" alt="RS Logo" />
+                    <div className="text-right mt-5 pt-5">
+                        <a href="/api/auth/github" className="btn btn-success">
+                            Sign up with GitHub
+                        </a>
                     </div>
                 </div>
             </main>

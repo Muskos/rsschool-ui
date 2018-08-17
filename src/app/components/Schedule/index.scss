@@ -30,7 +30,7 @@
                 text-align: right;
             }
 
-            @media (max-width: $screen-tablet) {
+            @media (max-width: $screen-phone) {
                 div[class^="col"] {
                     max-width: 100%;
                 }
